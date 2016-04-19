@@ -1,0 +1,35 @@
+html, body {
+height: 100%;
+}
+
+body {
+    background-image: url(../images/background.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 2em -5em;
+}
+
+.image img {
+  width: 50%;
+  float: right;
+  margin-right: -40px;
+}
+
+.col-md-3 {
+  background-color: rgba(255, 255, 255, 0.2);
+  margin-left: -13px;
+}
+
+.col-md-2 {
+  background-color: rgba(255, 255, 255, 0.2);
+  background-position:bottom right;
+}
+
+.footer, .push {
+height: 4em;
+}
